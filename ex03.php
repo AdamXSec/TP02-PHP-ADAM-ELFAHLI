@@ -3,7 +3,7 @@ define("TAUX_TVA",20);
 define("DEVISE","MAD");
 
 $prix_Unitaire_HT = 60;
-$quantite = 10;
+$quantite = 3;
 $total_HT = $prix_Unitaire_HT * $quantite;
 $montant_TVA = $total_HT * TAUX_TVA / 100;
 $total_TTC = $total_HT + $montant_TVA;
