@@ -1,5 +1,5 @@
 <?php
-$numeroMois = 3;
+$numeroMois = (int) date("m");
 ?>
 <!DOCTYPE html>
 <html lang="fr">
