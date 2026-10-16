@@ -28,3 +28,15 @@ php -S localhost:8000
 
 ### Exercice 4
 - Avec `echo`, `false` est converti en chaîne vide : rien ne s'affiche. Avec `var_dump()`, on voit le type et la valeur : `bool(false)`.
+### Exercice 5
+
+| Valeur testée | Message obtenu |
+ --------------------------------
+| -1            | Note invalide  |
+| 9             | Non validé     |
+| 10            | Passable       |
+| 12            | Assez bien     |
+| 14            | Bien           |
+| 16            | Très bien      |
+| 21            | Note invalide  |
+ --------------------------------
