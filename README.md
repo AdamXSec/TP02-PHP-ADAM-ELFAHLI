@@ -25,3 +25,6 @@ php -S localhost:8000
 - `$note` et `$Note` sont deux variables différentes, car PHP est sensible à la casse pour les noms de variables.
 - Noms valides : `$a`, `$_a`, `$a_a`, `$AAA`, `$a1`.
 - Noms invalides : `$a!` (le caractère `!` n'est pas autorisé) et `$1a` (un nom ne peut pas commencer par un chiffre).
+
+### Exercice 4
+- Avec `echo`, `false` est converti en chaîne vide : rien ne s'affiche. Avec `var_dump()`, on voit le type et la valeur : `bool(false)`.
