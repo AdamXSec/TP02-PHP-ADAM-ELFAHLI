@@ -21,3 +21,7 @@ TP 02 PHP — Programmation Web 2 — 2026/2027
 
 ## Exécution
 php -S localhost:8000
+### Exercice 2
+- `$note` et `$Note` sont deux variables différentes, car PHP est sensible à la casse pour les noms de variables.
+- Noms valides : `$a`, `$_a`, `$a_a`, `$AAA`, `$a1`.
+- Noms invalides : `$a!` (le caractère `!` n'est pas autorisé) et `$1a` (un nom ne peut pas commencer par un chiffre).
