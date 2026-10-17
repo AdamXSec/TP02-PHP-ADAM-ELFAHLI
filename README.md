@@ -40,3 +40,6 @@ php -S localhost:8000
 | 16            | Très bien      |
 | 21            | Note invalide  |
  --------------------------------
+ ### Exercice 10
+- Avec la méthode **GET**, les valeurs apparaissent dans l'URL, après le `?`, par exemple : `ex10_get.php?nom=ELFAHLI&prenom=ADAM&groupe=G1`.
+- Avec la méthode **POST**, les valeurs sont envoyées dans le corps de la requête : l'URL reste `ex10_post.php` sans les données.
